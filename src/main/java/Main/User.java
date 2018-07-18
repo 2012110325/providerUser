@@ -1,12 +1,12 @@
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+package Main;
+
+import javax.persistence.*;
 import java.math.BigDecimal;
 
 /**
  * Created by liqiang on 2018/7/18 23:30.
  */
+@Entity
 public class User {
 
     @Id
