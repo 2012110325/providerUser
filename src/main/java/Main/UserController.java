@@ -24,4 +24,12 @@ public class UserController {
         List<User> list = userRepository.findAll();
         return "film: " + id;
     }
+
+    @GetMapping("/abc/{id}")
+    public String findByIdTmp(@PathVariable Long id) {
+        User findOne = userRepository.findOne(id);
+
+        List<User> list = userRepository.findAll();
+        return "film1: " + id;
+    }
 }

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.itmuch.cloud</groupId>
-    <artifactId>microservice-simple-provider-user</artifactId>
+    <artifactId>microservice-provider-user</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <!--引入spring boot的依赖-->
@@ -40,6 +40,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
 
     </dependencies>
